@@ -1,0 +1,112 @@
+[
+  {
+    "Variant": "Unoptimized",
+    "Benchmark": "BuildRecords",
+    "RecordCount": 400000,
+    "ElapsedMilliseconds": 58.3338,
+    "AllocatedBytes": 73002784,
+    "Gen0Collections": 0,
+    "Gen1Collections": 0,
+    "Gen2Collections": 0,
+    "PeakWorkingSetBytes": 119672832
+  },
+  {
+    "Variant": "Unoptimized",
+    "Benchmark": "CoreAnalyticsPipeline",
+    "RecordCount": 400000,
+    "ElapsedMilliseconds": 4627.0799,
+    "AllocatedBytes": 16806568,
+    "Gen0Collections": 0,
+    "Gen1Collections": 0,
+    "Gen2Collections": 0,
+    "PeakWorkingSetBytes": 149037056
+  },
+  {
+    "Variant": "Unoptimized",
+    "Benchmark": "LineItemExport",
+    "RecordCount": 7500,
+    "ElapsedMilliseconds": 1431.9559,
+    "AllocatedBytes": 3842637416,
+    "Gen0Collections": 60,
+    "Gen1Collections": 60,
+    "Gen2Collections": 60,
+    "PeakWorkingSetBytes": 265883648
+  },
+  {
+    "Variant": "Unoptimized",
+    "Benchmark": "LineItemExport",
+    "RecordCount": 15000,
+    "ElapsedMilliseconds": 6696.077,
+    "AllocatedBytes": 15372940968,
+    "Gen0Collections": 196,
+    "Gen1Collections": 196,
+    "Gen2Collections": 196,
+    "PeakWorkingSetBytes": 336281600
+  },
+  {
+    "Variant": "Optimized",
+    "Benchmark": "BuildRecords",
+    "RecordCount": 400000,
+    "ElapsedMilliseconds": 9.9316,
+    "AllocatedBytes": 19200064,
+    "Gen0Collections": 0,
+    "Gen1Collections": 0,
+    "Gen2Collections": 0,
+    "PeakWorkingSetBytes": 66056192
+  },
+  {
+    "Variant": "Optimized",
+    "Benchmark": "CoreAnalyticsPipeline",
+    "RecordCount": 400000,
+    "ElapsedMilliseconds": 149.7954,
+    "AllocatedBytes": 5079264,
+    "Gen0Collections": 0,
+    "Gen1Collections": 0,
+    "Gen2Collections": 0,
+    "PeakWorkingSetBytes": 84545536
+  },
+  {
+    "Variant": "Optimized",
+    "Benchmark": "LineItemExport",
+    "RecordCount": 7500,
+    "ElapsedMilliseconds": 8.0767,
+    "AllocatedBytes": 3323328,
+    "Gen0Collections": 0,
+    "Gen1Collections": 0,
+    "Gen2Collections": 0,
+    "PeakWorkingSetBytes": 87633920
+  },
+  {
+    "Variant": "Optimized",
+    "Benchmark": "LineItemExport",
+    "RecordCount": 15000,
+    "ElapsedMilliseconds": 22.7842,
+    "AllocatedBytes": 6643960,
+    "Gen0Collections": 0,
+    "Gen1Collections": 0,
+    "Gen2Collections": 0,
+    "PeakWorkingSetBytes": 97738752
+  },
+  {
+    "Variant": "Optimized",
+    "Benchmark": "BuildRecords",
+    "RecordCount": 4000000,
+    "ElapsedMilliseconds": 632.3777,
+    "AllocatedBytes": 192000064,
+    "Gen0Collections": 0,
+    "Gen1Collections": 0,
+    "Gen2Collections": 0,
+    "PeakWorkingSetBytes": 466305024
+  },
+  {
+    "Variant": "Optimized",
+    "Benchmark": "CoreAnalyticsPipeline",
+    "RecordCount": 4000000,
+    "ElapsedMilliseconds": 1272.4585,
+    "AllocatedBytes": 36004592,
+    "Gen0Collections": 0,
+    "Gen1Collections": 0,
+    "Gen2Collections": 0,
+    "PeakWorkingSetBytes": 496914432
+  }
+]

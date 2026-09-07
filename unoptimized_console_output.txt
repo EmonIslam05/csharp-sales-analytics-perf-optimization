@@ -1,0 +1,33 @@
+=== SalesAnalytics.Unoptimized ===
+
+[Unoptimized] BuildRecords (n=400,000)
+  Elapsed:        58.3 ms
+  Allocated:      69.62 MB
+  GC (gen0/1/2):  0/0/0
+  Peak WorkingSet:114.13 MB
+
+[Unoptimized] CoreAnalyticsPipeline (n=400,000)
+  Elapsed:        4,627.1 ms
+  Allocated:      16.03 MB
+  GC (gen0/1/2):  0/0/0
+  Peak WorkingSet:142.13 MB
+
+  -> Categories: 12, Top product id: 241, Valid txns: 319,911, Months: 24
+
+[Unoptimized] LineItemExport (n=7,500)
+  Elapsed:        1,432.0 ms
+  Allocated:      3,664.62 MB
+  GC (gen0/1/2):  60/60/60
+  Peak WorkingSet:253.57 MB
+
+  -> Export length: 512,174 chars
+
+[Unoptimized] LineItemExport (n=15,000)
+  Elapsed:        6,696.1 ms
+  Allocated:      14,660.78 MB
+  GC (gen0/1/2):  196/196/196
+  Peak WorkingSet:320.70 MB
+
+  -> Export length: 1,024,877 chars
+
+Done. Results appended to /home/claude/perf-project/reports/benchmarks.json

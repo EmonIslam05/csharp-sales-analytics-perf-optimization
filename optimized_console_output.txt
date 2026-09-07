@@ -1,0 +1,47 @@
+=== SalesAnalytics.Optimized ===
+
+Logical processors available for Parallel.For: 1
+
+[Optimized] BuildRecords (n=400,000)
+  Elapsed:        9.9 ms
+  Allocated:      18.31 MB
+  GC (gen0/1/2):  0/0/0
+  Peak WorkingSet:63.00 MB
+
+[Optimized] CoreAnalyticsPipeline (n=400,000)
+  Elapsed:        149.8 ms
+  Allocated:      4.84 MB
+  GC (gen0/1/2):  0/0/0
+  Peak WorkingSet:80.63 MB
+
+  -> Categories: 12, Top product id: 241, Valid txns: 319,911, Months: 24
+
+[Optimized] LineItemExport (n=7,500)
+  Elapsed:        8.1 ms
+  Allocated:      3.17 MB
+  GC (gen0/1/2):  0/0/0
+  Peak WorkingSet:83.57 MB
+
+  -> Export length: 512,174 chars
+
+[Optimized] LineItemExport (n=15,000)
+  Elapsed:        22.8 ms
+  Allocated:      6.34 MB
+  GC (gen0/1/2):  0/0/0
+  Peak WorkingSet:93.21 MB
+
+  -> Export length: 1,024,877 chars
+
+[Optimized] BuildRecords (n=4,000,000)
+  Elapsed:        632.4 ms
+  Allocated:      183.11 MB
+  GC (gen0/1/2):  0/0/0
+  Peak WorkingSet:444.70 MB
+
+[Optimized] CoreAnalyticsPipeline (n=4,000,000)
+  Elapsed:        1,272.5 ms
+  Allocated:      34.34 MB
+  GC (gen0/1/2):  0/0/0
+  Peak WorkingSet:473.89 MB
+
+Done. Results appended to /home/claude/perf-project/reports/benchmarks.json

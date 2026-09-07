@@ -1,0 +1,12 @@
+## .NET build artifacts
+bin/
+obj/
+*.user
+
+## OS/editor cruft
+.DS_Store
+.vs/
+.vscode/
+
+## Report intermediates (keep the final docx/pdf, drop the raw page rasters)
+reports/page-*.jpg
